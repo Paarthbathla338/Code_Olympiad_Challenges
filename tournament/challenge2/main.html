@@ -3,7 +3,7 @@
      <h1 align = "center">
         Login Page
      </h1>
- </header>
+ 
  <body align = "center"> 
     <input type="text" placeholder="Enter Username" class="Username">
    <br>
@@ -11,10 +11,17 @@
     <input type="password" placeholder="Enter Password" class="Password">
     <br> <br><button type="submit" class="Log-In-Button">Log In</button>
  </body>
+ </header>
  <style>
+     *{padding: 0;
+        margin: 0;
+                }
      .Login-text h1{
+         padding-top: 17%;
+         padding-bottom: 3%;
          font-size: 60px;
          font-family: Arial, Helvetica, sans-serif;
+         color: white;
      }
      .Username{
          font-size: 30px;
@@ -23,8 +30,16 @@
      .Password{
          font-size: 30px;
          margin: 1%;
+        
      }
      .Log-In-Button{
          font-size: 30px;
      }
+     header {
+	background: linear-gradient(rgba(82, 82, 95, 0.8), rgba(82, 120, 143, 0.8)),
+	 url(https://wallpaperaccess.com/full/1900851.png);
+	height: 100vh;
+	background-size: cover;
+    background-position: center;
+}
  </style>
